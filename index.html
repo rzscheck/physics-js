@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Physics</title>
+		<style>
+			#physics-container {
+				width: 100%;
+				text-align: center;
+			}
+			
+			#vector-js {
+				margin: 0 auto;
+				border: 1px solid #ccc;
+			}
+			
+			form {
+				margin: 0 auto;
+				width: 25%;
+				padding: 1em;
+				border: 1px solid #ccc;
+				border-radius: 1em;
+			}
+			
+			ul {
+				list-style: none;
+				display: inline;
+				padding: 1em;
+			}
+			
+			form li + li {
+				margin-top: 1em;
+			}
+			
+			label {
+				display: inline-block;
+				width: 100px;
+				text-align: right;
+			}
+			
+			input {
+				font: 1em sans-serif;
+				width: 50px;
+				box-sizing: border-box;
+				border: 1px solid #999;
+			}
+			
+			input:focus {
+				border-color: #000;
+			}
+			
+			.pos, .vel, .acc {
+				padding: 1em;
+			}
+			
+			.pos li, .vel li, .acc li {
+				margin-top: 1em;
+				display: inline;
+			}
+			
+			button {
+				margin-left: 50%;
+				font: 1em sans-serif;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="physics-container">
+			<canvas id="physics-js">Error</canvas>
+		</div>
+		<!--
+		<form>
+			<ul class="pos">
+				<li>
+					<label>Pos: X:</label>
+					<input type="number" default="0">
+				</li>
+				<li>
+					<label>Y:</label>
+					<input type="number" default="0">
+				</li>
+			</ul>
+			<br/>
+			<ul class="vel">
+				<li>
+					<label>Vel: X:</label>
+					<input type="number" default="0">
+				</li>
+				<li>
+					<label>Y:</label>
+					<input type="number" default="0">
+				</li>
+			</ul>
+			<br/>
+			<ul class="acc">
+				<li>
+					<label>Acc: X:</label>
+					<input type="number" default="0">
+				</li>
+				<li>
+					<label>Y:</label>
+					<input type="number" default="0">
+				</li>
+			</ul>
+			<button>Start</button>
+		</form>
+		-->
+		<script src="physics.js"></script>
+	</body>
+</html>
